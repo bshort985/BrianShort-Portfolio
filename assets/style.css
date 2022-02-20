@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* header styles */
+header{
+    padding: 20px 35px;
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.name{
+    background-color: aqua;
+    color: teal;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+.name h1{
+    padding: 10px auto 10px auto;
+}
+
+header nav{
+    margin: 7px 0;
+}
+
+header nav ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    color: aqua;
+}
+.hero{
+
+    background-image: url("../assets/Cover.jpg");
+    background-size: cover;
+    background-position: center;   
+    height: 250px;
+}
+.hero div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: whitesmoke;
+}
+
+.about-me{
+    display: flex;
+    margin: 15px 15px 15px 15px;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+}
+.about-me h2{
+    margin-right: 15px;
+    border-right: 1px solid black;
+}
