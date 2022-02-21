@@ -47,7 +47,7 @@ header nav ul li a{
 }
 .hero{
 
-    background-image: url("../assets/Cover.jpg");
+    background-image: url("../assets/img/Cover.jpg");
     background-size: cover;
     background-position: center;   
     height: 300px;
@@ -114,26 +114,26 @@ header nav ul li a{
     min-width: 90%;
     min-height: 400px;
     flex-basis: 100%;
-    background-image:url("../assets/ocean-pic.jpg");
+    background-image:url("../assets/img/ocean-pic.jpg");
     background-position: center;
 }
 .calc{
-    background-image:url("../assets/Calculator-pic.jpg");
+    background-image:url("../assets/img/Calculator-pic.jpg");
     background-position: center;
     background-size: auto;
 }
 .led-wall{
-    background-image:url("../assets/server-pic.jpg");
+    background-image:url("../assets/img/server-pic.jpg");
     background-position: center;
     background-size: auto;
 }
 .pastel-puzzle{
-    background-image:url("../assets/puzzle-pic.jfif");
+    background-image:url("../assets/img/puzzle-pic.jfif");
     background-position: center;
     background-size: auto;
 }
 .run-buddy{
-    background-image:url("../assets/hero-bg.jpg");
+    background-image:url("../assets/img/hero-bg.jpg");
     background-position: center;
     background-size: cover;
 }
